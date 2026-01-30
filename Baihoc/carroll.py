@@ -1,0 +1,5 @@
+name = open("carroll.txt")
+print(name.readlines())
+x = str(name.readlines(1))
+print(x)
+print(type(x))
